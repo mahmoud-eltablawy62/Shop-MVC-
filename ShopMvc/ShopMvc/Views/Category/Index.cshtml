@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Category>
+
+@{
+    Layout = "~/Views/Shared/_DahBoard.cshtml";
+    ViewBag.Title = "Category_Management";
+    ViewBag.Header = "Create Category";
+}
+
+
+
+
+@{
+    int i = 0;
+}
+
+
+<div>
+<a type="button" class="btn btn-secondary" href="/Category/Create">Create</a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th>CreatedAt</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach( var item in Model){
+            <tr>
+                @{
+                    i++;
+                }
+                <th scope="row">@i</th>
+            <td>@item.Category_Id</td>
+            <td>@item.Category_Name</td>
+            <td>@item.Catogory_Description</td>
+            <td>@item.CreatedAt</td>
+                <td>
+
+                    <a type="button" class="btn btn-primary" href="/Category/Edit/@item.Category_Id">Edit</a>
+
+                    <a type="button" class="btn btn-danger" href="/Category/Delete/@item.Category_Id">Delete</a>
+                </td>
+                
+        </tr>      
+        }
+    </tbody>
+</table>

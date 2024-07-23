@@ -1,0 +1,28 @@
+﻿@model Category 
+@{
+    Layout = "~/Views/Shared/_DahBoard.cshtml";
+    ViewBag.Title = "Category_Management";
+    ViewBag.Header = "Create Category";
+}
+<h1> Add_Category </h1>
+<form method="post" >
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label" asp-for="Category_Name">Category_Name</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" asp-for="Category_Name">
+        <span asp-validation-for="Category_Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label" asp-for="Catogory_Description">Category_Description</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" asp-for="Catogory_Description">
+        <span asp-validation-for="Catogory_Description" class="text-danger" ></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+    <a type="button" class="btn btn-warning" asp-action ="index" >Back</a>
+</form>
+
+@section scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

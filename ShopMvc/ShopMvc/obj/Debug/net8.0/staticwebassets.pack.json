@@ -1,0 +1,709 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopMvc.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ShopMvc.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\AdminLTELogo.png",
+      "PackagePath": "staticwebassets\\Img\\AdminLTELogo.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\avatar.png",
+      "PackagePath": "staticwebassets\\Img\\avatar.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\avatar2.png",
+      "PackagePath": "staticwebassets\\Img\\avatar2.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\avatar3.png",
+      "PackagePath": "staticwebassets\\Img\\avatar3.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\avatar4.png",
+      "PackagePath": "staticwebassets\\Img\\avatar4.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\avatar5.png",
+      "PackagePath": "staticwebassets\\Img\\avatar5.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\boxed-bg.jpg",
+      "PackagePath": "staticwebassets\\Img\\boxed-bg.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\boxed-bg.png",
+      "PackagePath": "staticwebassets\\Img\\boxed-bg.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\credit\\american-express.png",
+      "PackagePath": "staticwebassets\\Img\\credit\\american-express.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\credit\\cirrus.png",
+      "PackagePath": "staticwebassets\\Img\\credit\\cirrus.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\credit\\mastercard.png",
+      "PackagePath": "staticwebassets\\Img\\credit\\mastercard.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\credit\\paypal.png",
+      "PackagePath": "staticwebassets\\Img\\credit\\paypal.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\credit\\paypal2.png",
+      "PackagePath": "staticwebassets\\Img\\credit\\paypal2.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\credit\\visa.png",
+      "PackagePath": "staticwebassets\\Img\\credit\\visa.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\default-150x150.png",
+      "PackagePath": "staticwebassets\\Img\\default-150x150.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\icons.png",
+      "PackagePath": "staticwebassets\\Img\\icons.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\photo1.png",
+      "PackagePath": "staticwebassets\\Img\\photo1.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\photo2.png",
+      "PackagePath": "staticwebassets\\Img\\photo2.png"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\photo3.jpg",
+      "PackagePath": "staticwebassets\\Img\\photo3.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\photo4.jpg",
+      "PackagePath": "staticwebassets\\Img\\photo4.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\prod-1.jpg",
+      "PackagePath": "staticwebassets\\Img\\prod-1.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\prod-2.jpg",
+      "PackagePath": "staticwebassets\\Img\\prod-2.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\prod-3.jpg",
+      "PackagePath": "staticwebassets\\Img\\prod-3.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\prod-4.jpg",
+      "PackagePath": "staticwebassets\\Img\\prod-4.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\prod-5.jpg",
+      "PackagePath": "staticwebassets\\Img\\prod-5.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\user1-128x128.jpg",
+      "PackagePath": "staticwebassets\\Img\\user1-128x128.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\Img\\user2-160x160.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\user3-128x128.jpg",
+      "PackagePath": "staticwebassets\\Img\\user3-128x128.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\user4-128x128.jpg",
+      "PackagePath": "staticwebassets\\Img\\user4-128x128.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\user5-128x128.jpg",
+      "PackagePath": "staticwebassets\\Img\\user5-128x128.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\user6-128x128.jpg",
+      "PackagePath": "staticwebassets\\Img\\user6-128x128.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\user7-128x128.jpg",
+      "PackagePath": "staticwebassets\\Img\\user7-128x128.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\user8-128x128.jpg",
+      "PackagePath": "staticwebassets\\Img\\user8-128x128.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\adminlte.css",
+      "PackagePath": "staticwebassets\\css\\adminlte.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\adminlte.css.map",
+      "PackagePath": "staticwebassets\\css\\adminlte.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\adminlte.min.css.map",
+      "PackagePath": "staticwebassets\\css\\adminlte.min.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.components.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.components.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.components.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.components.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.components.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.components.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.components.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.components.min.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.core.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.core.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.core.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.core.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.core.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.core.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.core.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.core.min.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.extra-components.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.extra-components.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.extra-components.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.extra-components.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.extra-components.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.extra-components.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.extra-components.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.extra-components.min.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.light.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.light.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.light.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.light.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.light.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.light.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.light.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.light.min.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.pages.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.pages.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.pages.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.pages.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.pages.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.pages.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.pages.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.pages.min.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.plugins.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.plugins.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.plugins.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\alt\\adminlte.plugins.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.min.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\js\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\js\\.eslintrc.json"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\js\\adminlte.js",
+      "PackagePath": "staticwebassets\\js\\adminlte.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\js\\adminlte.js.map",
+      "PackagePath": "staticwebassets\\js\\adminlte.js.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\js\\adminlte.min.js.map",
+      "PackagePath": "staticwebassets\\js\\adminlte.min.js.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\js\\demo.js",
+      "PackagePath": "staticwebassets\\js\\demo.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\js\\pages\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\js\\pages\\dashboard2.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard2.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\js\\pages\\dashboard3.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard3.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\css\\all.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\all.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\all.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\css\\brands.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\brands.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\brands.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\fontawesome.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\css\\regular.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\regular.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\regular.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\css\\solid.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\solid.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\solid.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\v4-shims.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ShopMvc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ShopMvc.props",
+      "PackagePath": "build\\ShopMvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ShopMvc.props",
+      "PackagePath": "buildMultiTargeting\\ShopMvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ShopMvc.props",
+      "PackagePath": "buildTransitive\\ShopMvc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
