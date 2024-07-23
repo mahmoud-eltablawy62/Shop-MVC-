@@ -1,19 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ShopMvc.Models;
+using ShopMvc.Core;
+using ShopMvc.Core.Entities;
+using ShopMvc.Repo.Data;
 
 namespace ShopMvc.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ShopDbContext _Context;
+        private readonly IunitOfWork _Unit;
 
-        public CategoryController(ShopDbContext Context)
+        public CategoryController(IunitOfWork Unit)
         {
-            _Context = Context;   
+            _Unit = Unit;
         }
         public IActionResult Index()
         {
-            var Categories = _Context.Categories.ToList();
+            var Categories = _Unit._Repo.GetAll();
             return View(Categories);
         }
         [HttpGet]
@@ -23,15 +25,17 @@ namespace ShopMvc.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken] /// ====> cross side Frogery Attack 
+        [ValidateAntiForgeryToken] 
         public IActionResult Create(Category cat) 
         {
             if (ModelState.IsValid)
             {
-                _Context.Categories.Add(cat);
-                _Context.SaveChanges();
-                return RedirectToAction("Index");
+                _Unit._Repo.Add(cat);
+                _Unit.Compelete();
+                TempData["Created"] = "Data Created Successfully";
+                return RedirectToAction("Index"); 
             }
+            
             return View(cat);
         }
 
@@ -39,7 +43,7 @@ namespace ShopMvc.Controllers
         public IActionResult Edit(int ? Id) {
             if (Id != null)
             {
-                var cat = _Context.Categories.FirstOrDefault(c => c.Category_Id == Id);
+                var cat = _Unit._Repo.Get(x => x.Category_Id  == Id);
                 return View(cat);   
             }
             else return NotFound();
@@ -51,10 +55,12 @@ namespace ShopMvc.Controllers
 
             if (ModelState.IsValid)
             {
-                _Context.Categories.Update(cat);
-                _Context.SaveChanges();
+                _Unit._Repo.update(cat);    
+                _Unit.Compelete();
+                TempData["Updated"] = "Data Updated Successfully";
                 return RedirectToAction("Index");
             }
+            
             return View(cat);
         }
 
@@ -65,19 +71,20 @@ namespace ShopMvc.Controllers
                 return NotFound();
             }
             else
-            {
-                var cat = _Context.Categories.FirstOrDefault(C => C.Category_Id == id);
+            {   
+                var cat =  _Unit._Repo.Get(C => C.Category_Id == id) ;               
                 return View(cat);
             }
-
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Delete(int id) {
-            var cat = _Context.Categories.FirstOrDefault(C => C.Category_Id == id);
-            _Context.Categories.Remove(cat);
-            _Context.SaveChanges();
+            //C => C.Category_Id == id
+            var cat = _Unit._Repo.Get(C => C.Category_Id == id);
+             _Unit._Repo.Delete(cat);
+            _Unit.Compelete();
+            TempData["Delete"] = "Data Deleted Successfully";
             return RedirectToAction("Index");
         }
 
