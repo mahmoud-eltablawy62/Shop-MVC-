@@ -1,6 +1,7 @@
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc.Core\bin\Debug\net8.0\ShopMvc.Core.deps.json
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc.Core\bin\Debug\net8.0\ShopMvc.Core.dll
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc.Core\bin\Debug\net8.0\ShopMvc.Core.pdb
+F:\Shop\Shop-MVC-\ShopMvc\ShopMvc.Core\obj\Debug\net8.0\ShopMvc.Core.csproj.AssemblyReference.cache
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc.Core\obj\Debug\net8.0\ShopMvc.Core.GeneratedMSBuildEditorConfig.editorconfig
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc.Core\obj\Debug\net8.0\ShopMvc.Core.AssemblyInfoInputs.cache
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc.Core\obj\Debug\net8.0\ShopMvc.Core.AssemblyInfo.cs

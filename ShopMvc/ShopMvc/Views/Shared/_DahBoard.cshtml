@@ -12,6 +12,7 @@
   
     <link rel="stylesheet" href="/css/adminlte.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <link rel="stylesheet" href="//cdn.datatables.net/2.1.2/css/dataTables.dataTables.min.css" />
 </head>
 <body class="hold-transition sidebar-mini">
     
@@ -189,11 +190,17 @@
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="/Admin/Product/Create" class="nav-link">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>
-                                    Dashboard
-       
+                                    Product
+                                </p>
+                            </a>
+
+                            <a href="/Admin/Category/Index" class="nav-link">
+                                <i class="nav-icon fas fa-tachometer-alt"></i>
+                                <p>
+                                    Category
                                 </p>
                             </a>
                            
@@ -259,6 +266,15 @@
     <script src="/js/adminlte.min.js"></script>
     
     <script src="/js/demo.js"></script>
+
+    <script src="//cdn.datatables.net/2.1.2/js/dataTables.min.js"></script>
+
+    <script src=" //cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js "></script> 
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+
+
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

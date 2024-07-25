@@ -1,0 +1,53 @@
+﻿@model ProductView
+@{
+    Layout = "~/Views/Shared/_DahBoard.cshtml";
+    ViewBag.Title = "product_Management";
+    ViewBag.Header = "Create Product";
+}
+<h1> Add_Product </h1>
+<form method="post" enctype="multipart/form-data" >
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label" asp-for="Prod.ProductName">ProductName</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" asp-for="Prod.ProductName">
+        <span asp-validation-for="Prod.ProductName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label" asp-for="Prod.ProductDescription">ProductDescription</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" asp-for="Prod.ProductDescription">
+        <span asp-validation-for="Prod.ProductDescription" class="text-danger"></span>
+    </div>
+
+
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label" asp-for="Prod.ProductPrice">ProductPrice</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" asp-for="Prod.ProductPrice">
+        <span asp-validation-for="Prod.ProductPrice" class="text-danger"></span>
+    </div>
+
+
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label" asp-for="Prod.CategoryId">Select_Category</label>
+        <select asp-for="Prod.CategoryId" asp-items="Model.SelectListItems" class="form-label">
+            <option disabled selected >  ---- Categories  ----</option>    
+        </select>
+        <span asp-validation-for="Prod.ProductPrice" class="text-danger"></span>
+    </div>
+
+
+
+    <div class="mb-3">
+        <label asp-for="Prod.ProductImage" class="form-label"  >ProductImage</label>
+        <input type="file" asp-for="Prod.ProductImage" name="Upload">
+    </div>
+
+     
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+    <a type="button" class="btn btn-warning" asp-action="index">Back</a>
+</form>
+
+@section scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,35 @@
+﻿
+
+@{
+    Layout = "~/Views/Shared/_DahBoard.cshtml";
+    ViewBag.Title = "Product_Management";
+    ViewBag.Header = "Create_Product";
+}
+
+
+
+
+
+
+<div>
+    <a type="button" class="btn btn-secondary" href="/Admin/Product/Create">Create</a>
+</div>
+
+<table id="ProductTable" >
+    <thead>
+        <tr>
+
+            
+            <th>productName</th> 
+            <th>productDescription</th> 
+            <th>productPrice</th> 
+            <th>category</th>
+            <th>Action</th>
+
+        </tr>
+    </thead>
+   </table>
+
+@section scripts {
+<script src="~/js/Product.js" ></script>
+}

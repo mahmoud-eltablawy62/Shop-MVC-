@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\ShopMvc.bundle.scp.css"
     },
     {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Customer\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\Customer\\assets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Customer\\css\\styles.css",
+      "PackagePath": "staticwebassets\\Customer\\css\\styles.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Customer\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\Customer\\js\\scripts.js"
+    },
+    {
       "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\AdminLTELogo.png",
       "PackagePath": "staticwebassets\\Img\\AdminLTELogo.png"
     },
@@ -255,6 +267,10 @@
     {
       "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\js\\.eslintrc.json",
       "PackagePath": "staticwebassets\\js\\.eslintrc.json"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\js\\Product.js",
+      "PackagePath": "staticwebassets\\js\\Product.js"
     },
     {
       "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\js\\adminlte.js",

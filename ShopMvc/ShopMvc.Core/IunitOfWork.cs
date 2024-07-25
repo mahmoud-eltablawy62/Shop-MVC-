@@ -11,6 +11,7 @@ namespace ShopMvc.Core
     {
         ICategoryRepo _Repo {  get; }
 
+        IProductRepo _ProductRepo { get; }   
         int Compelete();    
     }
 }
