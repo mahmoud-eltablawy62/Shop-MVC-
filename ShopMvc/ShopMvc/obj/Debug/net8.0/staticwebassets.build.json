@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TF6Q9bmj10qiVXJKORiXFLi5KZpAKCxDmNhif+2qx0E=",
+  "Hash": "41i65wlWVKy1GL+LXI8IeDL5tfacAzL69nBodogDwqE=",
   "Source": "ShopMvc",
   "BasePath": "_content/ShopMvc",
   "Mode": "Default",
@@ -661,6 +661,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Images\\Products\\4657f187-483a-43cc-9b67-25a7d316a1cf.jfif",
+      "SourceId": "ShopMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\",
+      "BasePath": "_content/ShopMvc",
+      "RelativePath": "Images/Products/4657f187-483a-43cc-9b67-25a7d316a1cf.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Products\\4657f187-483a-43cc-9b67-25a7d316a1cf.jfif"
     },
     {
       "Identity": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\AdminLTELogo.png",

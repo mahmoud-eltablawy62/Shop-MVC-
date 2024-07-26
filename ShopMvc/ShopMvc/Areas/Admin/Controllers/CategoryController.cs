@@ -5,6 +5,7 @@ using ShopMvc.Core.Entities;
 
 namespace ShopMvc.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IunitOfWork _Unit;
@@ -84,7 +85,7 @@ namespace ShopMvc.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Delete(int id)
         {
-            //C => C.Category_Id == id
+            
             var cat = _Unit._Repo.Get(C => C.Category_Id == id);
             _Unit._Repo.Delete(cat);
             _Unit.Compelete();

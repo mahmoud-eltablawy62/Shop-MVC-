@@ -7,6 +7,7 @@ using ShopMvc.Repo.Data;
 
 namespace ShopMvc.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class ProductController : Controller
     {
         private readonly IunitOfWork _Unit;

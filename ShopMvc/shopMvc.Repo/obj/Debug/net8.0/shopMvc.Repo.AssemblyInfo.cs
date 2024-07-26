@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("shopMvc.Repo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0d4a6c60300d443165d5d5740bf37f6301cb9bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6a4e3efe73075eb46939ad1a689ac802201ed37")]
 [assembly: System.Reflection.AssemblyProductAttribute("shopMvc.Repo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("shopMvc.Repo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -55,7 +55,7 @@ namespace shopMvc.Repo.Reposatries
             }
             if (IncludeWords != null)
             {
-                foreach (var word in IncludeWords.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                foreach (var word in IncludeWords.Split(new char[] {','}, StringSplitOptions.RemoveEmptyEntries))
                 {
                     quary.Include(word);
                 }
