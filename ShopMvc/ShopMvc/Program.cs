@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using shopMvc.Repo;
 using ShopMvc.Core;
 using ShopMvc.Repo.Data;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ShopDbContext>
     (option => option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))); 
+
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<ShopDbContext>();
 builder.Services.AddScoped<IunitOfWork, UnitOfWork >();
 var app = builder.Build();
 
@@ -27,15 +30,19 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.MapRazorPages();
+
 
 app.MapControllerRoute(
     name: "default",
+    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
+    name: "Admin",
     pattern: "{area=Admin}/{controller=Category}/{action=Index}/{id?}");
 
 
-app.MapControllerRoute(
-    name: "Customer",
-    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
+
 
 
 app.Run();
