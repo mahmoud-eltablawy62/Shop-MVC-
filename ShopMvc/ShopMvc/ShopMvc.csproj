@@ -21,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ShopMvc.Core\ShopMvc.Core.csproj" />
     <ProjectReference Include="..\shopMvc.Repo\shopMvc.Repo.csproj" />
+    <ProjectReference Include="..\ShopRoles\ShopRoles.csproj" />
   </ItemGroup>
 
   <ItemGroup>

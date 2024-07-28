@@ -15,6 +15,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "8.0.7",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.3",
           "ShopMvc.Core": "1.0.0",
+          "ShopRoles": "1.0.0",
           "shopMvc.Repo": "1.0.0"
         },
         "runtime": {
@@ -3005,6 +3006,14 @@
         "runtime": {
           "shopMvc.Repo.dll": {}
         }
+      },
+      "ShopRoles/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "8.0.7"
+        },
+        "runtime": {
+          "ShopRoles.dll": {}
+        }
       }
     }
   },
@@ -4945,6 +4954,11 @@
       "sha512": ""
     },
     "shopMvc.Repo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShopRoles/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

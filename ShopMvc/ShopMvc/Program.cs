@@ -3,16 +3,28 @@ using shopMvc.Repo;
 using ShopMvc.Core;
 using ShopMvc.Repo.Data;
 using Microsoft.AspNetCore.Identity;
+using ShopRoles;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
 builder.Services.AddDbContext<ShopDbContext>
     (option => option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))); 
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<ShopDbContext>();
+builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddDefaultTokenProviders().AddDefaultUI()
+    .AddEntityFrameworkStores<ShopDbContext>();
+
+
+
 builder.Services.AddScoped<IunitOfWork, UnitOfWork >();
+builder.Services.AddScoped<IEmailSender, EmailSender>();
+
+builder.Services.AddRazorPages();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -29,6 +41,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+
 
 app.MapRazorPages();
 

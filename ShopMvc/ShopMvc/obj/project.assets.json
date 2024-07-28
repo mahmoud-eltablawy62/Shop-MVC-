@@ -4885,6 +4885,19 @@
         "runtime": {
           "bin/placeholder/shopMvc.Repo.dll": {}
         }
+      },
+      "ShopRoles/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "8.0.7"
+        },
+        "compile": {
+          "bin/placeholder/ShopRoles.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopRoles.dll": {}
+        }
       }
     }
   },
@@ -13979,6 +13992,11 @@
       "type": "project",
       "path": "../shopMvc.Repo/shopMvc.Repo.csproj",
       "msbuildProject": "../shopMvc.Repo/shopMvc.Repo.csproj"
+    },
+    "ShopRoles/1.0.0": {
+      "type": "project",
+      "path": "../ShopRoles/ShopRoles.csproj",
+      "msbuildProject": "../ShopRoles/ShopRoles.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13990,6 +14008,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.7",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.3",
       "ShopMvc.Core >= 1.0.0",
+      "ShopRoles >= 1.0.0",
       "shopMvc.Repo >= 1.0.0"
     ]
   },
@@ -14026,6 +14045,9 @@
             },
             "F:\\Shop\\Shop-MVC-\\ShopMvc\\shopMvc.Repo\\shopMvc.Repo.csproj": {
               "projectPath": "F:\\Shop\\Shop-MVC-\\ShopMvc\\shopMvc.Repo\\shopMvc.Repo.csproj"
+            },
+            "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopRoles\\ShopRoles.csproj": {
+              "projectPath": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopRoles\\ShopRoles.csproj"
             }
           }
         }

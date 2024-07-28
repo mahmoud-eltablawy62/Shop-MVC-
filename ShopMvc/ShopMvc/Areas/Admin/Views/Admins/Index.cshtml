@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Users>
+
+@{
+   
+    ViewBag.Title = "Admin_Management";
+    ViewBag.Header = "Create Admin";
+}
+
+
+
+
+@{
+    int i = 0;
+}
+
+
+<div>
+    <a type="button" class="btn btn-secondary" href="/Identity/Account/Register">Create</a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+         
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @{
+                    i++;
+                }
+                <th scope="row">@i</th>
+                <td>@item.UserName</td>
+                <td>@item.Email</td>
+               
+                <td>
+
+                    @if (item.LockoutEnd == null )
+                    {
+
+                        <a type="button" class="btn btn-success" asp-action="Lock_UnLock"  asp-route-id="@item.Id">
+                            <i class="fas fa-lock-open"></i>
+                        </a>
+
+                        <a type="button" class="btn btn-danger" href="/Admin/Admins/Delete/@item.Id">
+                        <i class="fas fa-trash"></i>
+                        </a>
+                    }
+
+                    else
+                    {
+                        <a type="button" class="btn btn-success" asp-action="Lock_UnLock" asp-route-id="@item.Id">
+                            <i class="fas fa-lock"></i>
+                        </a>
+
+                        <a type="button" class="btn btn-danger" href="/Admin/Admins/Delete/@item.Id">
+                            <i class="fas fa-trash"></i>
+                        </a>
+
+                    }
+
+                    
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>

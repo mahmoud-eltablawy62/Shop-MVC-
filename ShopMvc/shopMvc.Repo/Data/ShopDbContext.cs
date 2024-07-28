@@ -9,7 +9,10 @@ namespace ShopMvc.Repo.Data
     {
         public ShopDbContext(DbContextOptions<ShopDbContext> option) : base(option)
         {         
+
         }
+
+       
 
         public DbSet<Category> Categories { get; set; }
 
