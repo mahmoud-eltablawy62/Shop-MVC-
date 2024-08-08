@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "F:\\Shop\\Shop-MVC-\\ShopMvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|f:\\shop\\shop-mvc-\\shopmvc\\shopmvc\\areas\\admin\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|solutionrelative:shopmvc\\areas\\admin\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|f:\\shop\\shop-mvc-\\shopmvc\\shopmvc\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|solutionrelative:shopmvc\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|f:\\shop\\shop-mvc-\\shopmvc\\shopmvc\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|solutionrelative:shopmvc\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|f:\\shop\\shop-mvc-\\shopmvc\\shopmvc\\areas\\admin\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|solutionrelative:shopmvc\\areas\\admin\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|f:\\shop\\shop-mvc-\\shopmvc\\shopmvc\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|solutionrelative:shopmvc\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|f:\\shop\\shop-mvc-\\shopmvc\\shopmvc\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|solutionrelative:shopmvc\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|f:\\shop\\shop-mvc-\\shopmvc\\shopmvc\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|solutionrelative:shopmvc\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 345,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,67 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminsController.cs",
-              "DocumentMoniker": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Controllers\\AdminsController.cs",
-              "RelativeDocumentMoniker": "ShopMvc\\Areas\\Admin\\Controllers\\AdminsController.cs",
-              "ToolTip": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Controllers\\AdminsController.cs",
-              "RelativeToolTip": "ShopMvc\\Areas\\Admin\\Controllers\\AdminsController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T19:04:13.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Views\\Admins\\Index.cshtml",
-              "RelativeDocumentMoniker": "ShopMvc\\Areas\\Admin\\Views\\Admins\\Index.cshtml",
-              "ToolTip": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Views\\Admins\\Index.cshtml",
-              "RelativeToolTip": "ShopMvc\\Areas\\Admin\\Views\\Admins\\Index.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADkAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T18:36:21.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ShopMvc\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "ToolTip": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "RelativeToolTip": "ShopMvc\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T18:33:31.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "RelativeDocumentMoniker": "ShopMvc\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "ToolTip": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "RelativeToolTip": "ShopMvc\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T18:33:29.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "ShopMvc\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ToolTip": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "ShopMvc\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopMvc\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "ShopMvc\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAB5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T18:33:28.299Z",
+              "WhenOpened": "2024-08-08T17:44:13.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ShopMvc\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ToolTip": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ShopMvc\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T17:38:49.485Z",
               "EditorCaption": ""
             }
           ]

@@ -12,15 +12,20 @@ namespace shopMvc.Repo
 {
     public class UnitOfWork : IunitOfWork
     {
+
         private readonly ShopDbContext _Context;
         public ICategoryRepo _Repo { get; private set; }
 
+        public IshopingCart _RepoCart { get; private set; } 
+
         public IProductRepo _ProductRepo { get; private set; }  
+
         public UnitOfWork(ShopDbContext Context) 
         {
             _Context = Context;
             _Repo = new CategoryRepo(Context);   
-            _ProductRepo = new ProductRepo(Context);    
+            _ProductRepo = new ProductRepo(Context);  
+            _RepoCart = new ShopingCartRepo(Context);   
         }
 
         public int Compelete()

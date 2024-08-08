@@ -7,6 +7,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace shopMvc.Repo.Reposatries
 {
@@ -53,11 +54,12 @@ namespace shopMvc.Repo.Reposatries
             {
                 quary = quary.Where(Predicate);
             }
-            if (IncludeWords != null)
+            if (!string.IsNullOrEmpty(IncludeWords))
             {
-                foreach (var word in IncludeWords.Split(new char[] {','}, StringSplitOptions.RemoveEmptyEntries))
+                foreach (var word in IncludeWords.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                 {
-                    quary.Include(word);
+                    var trimmedWord = word.Trim();
+                    quary = quary.Include(trimmedWord);
                 }
             }
             return quary.ToList();

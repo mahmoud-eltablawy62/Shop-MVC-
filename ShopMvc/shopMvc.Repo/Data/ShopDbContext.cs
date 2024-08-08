@@ -19,5 +19,7 @@ namespace ShopMvc.Repo.Data
         public DbSet<Product> Products { get;set; }
 
         public DbSet<Users> GetUsers {  get; set; } 
+
+        public DbSet<ShoppingCart> ShoppingCarts { get; set; } 
     }
 }

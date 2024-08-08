@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\Images\\Products\\4657f187-483a-43cc-9b67-25a7d316a1cf.jfif"
     },
     {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Images\\Products\\cc4fe163-2bbf-4fd1-8d75-cbde8f1b076e.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\cc4fe163-2bbf-4fd1-8d75-cbde8f1b076e.png"
+    },
+    {
       "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\AdminLTELogo.png",
       "PackagePath": "staticwebassets\\Img\\AdminLTELogo.png"
     },
@@ -151,6 +155,14 @@
     {
       "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\user8-128x128.jpg",
       "PackagePath": "staticwebassets\\Img\\user8-128x128.jpg"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\cart\\Cart.css",
+      "PackagePath": "staticwebassets\\cart\\Cart.css"
+    },
+    {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\cart\\index.html",
+      "PackagePath": "staticwebassets\\cart\\index.html"
     },
     {
       "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\css\\adminlte.css",

@@ -12,8 +12,8 @@ using ShopMvc.Repo.Data;
 namespace shopMvc.Repo.Migrations
 {
     [DbContext(typeof(ShopDbContext))]
-    [Migration("20240727165741_V1")]
-    partial class V1
+    [Migration("20240729165711_v2")]
+    partial class v2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -291,6 +291,33 @@ namespace shopMvc.Repo.Migrations
                     b.ToTable("Products");
                 });
 
+            modelBuilder.Entity("ShopMvc.Core.Entities.ShoppingCart", b =>
+                {
+                    b.Property<int>("ShoppingCartId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ShoppingCartId"));
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("User_id")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("ShoppingCartId");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("User_id");
+
+                    b.ToTable("ShoppingCarts");
+                });
+
             modelBuilder.Entity("ShopMvc.Core.Entities.Users", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
@@ -370,6 +397,25 @@ namespace shopMvc.Repo.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("ShopMvc.Core.Entities.ShoppingCart", b =>
+                {
+                    b.HasOne("ShopMvc.Core.Entities.Product", "Products")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ShopMvc.Core.Entities.Users", "User")
+                        .WithMany()
+                        .HasForeignKey("User_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Products");
+
+                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShopMvc.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c3e726d9d01426c5bd37b68bf6a347d24fcb0ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0a220c5036fcaf8dfbfafa31d07a036942191bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShopMvc.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShopMvc.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

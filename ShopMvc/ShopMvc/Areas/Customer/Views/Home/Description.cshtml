@@ -1,12 +1,14 @@
-﻿@model DescriptionProduct
+﻿@model ShoppingCart
 
+<form method="post" >
 <section style="background-color: #eee;">
     <div class="container py-5">
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6 col-xl-4">
+                <input  asp-for="ProductId"  hidden  />
                 <div class="card text-black">
                     <i class="fab fa-apple fa-lg pt-3 pb-1 px-3"></i>
-                    <img src="~/@Model.Prod.ProductImage"
+                    <img src="~/@Model.Products.ProductImage"
                          class="card-img-top" alt="Apple Computer" />
                     <div class="card-body">
                         <div class="text-center">
@@ -15,16 +17,16 @@
                         </div>
                         <div>
                             <div class="d-flex justify-content-between">
-                                <span>ProductName</span><span>@Model.Prod.ProductName</span>
+                                <span>ProductName</span><span>@Model.Products.ProductName</span>
                             </div>
                             <div class="d-flex justify-content-between">
-                                <span>ProductDescription</span><span>@Model.Prod.ProductDescription</span>
+                                <span>ProductDescription</span><span>@Model.Products.ProductDescription</span>
                             </div>
                             
                         </div>
                         <div class="d-flex justify-content-between total font-weight-bold mt-4">
-                            <input class="form-control text-center me-3" id="inputQuantity" asp-for = "Count"  />
-                            <button type="button" class="btn btn-dark text-center me-3">Add To Cart</button>
+                             <input class="form-control text-center me-3" id="inputQuantity" asp-for = "Count"  /> 
+                            <button type="submit" class="btn btn-dark text-center me-3">Add To Cart</button>
                         </div>
                         
                     </div>
@@ -33,3 +35,5 @@
         </div>
     </div>
 </section>
+
+                        </form>
