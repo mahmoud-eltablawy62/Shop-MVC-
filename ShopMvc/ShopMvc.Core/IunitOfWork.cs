@@ -13,7 +13,13 @@ namespace ShopMvc.Core
 
         IProductRepo _ProductRepo { get; }   
 
-        IshopingCart _RepoCart { get; }
+        IshopingCart _RepoCart { get; } 
+
+        IOrderHeader _RepoOrderHeader { get; }  
+
+        IOrderDetails _RepoOrderDetails { get; } 
+
+        IAppUser _appUser { get; }
         int Compelete();    
     }
 }

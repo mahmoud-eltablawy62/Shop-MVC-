@@ -549,6 +549,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\order\\SummaryUi.css",
+      "PackagePath": "staticwebassets\\order\\SummaryUi.css"
+    },
+    {
       "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.bundle.js"
     },

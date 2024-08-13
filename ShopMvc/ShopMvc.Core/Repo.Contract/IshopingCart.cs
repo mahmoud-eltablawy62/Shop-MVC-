@@ -13,6 +13,8 @@ namespace ShopMvc.Core.Repo.Contract
 
         int Inc_By1(ShoppingCart cart, int count);
         int Dec_By1 (ShoppingCart cart, int count); 
+
+        void RemoveRange(IEnumerable<ShoppingCart> carts);  
     }
 }
 

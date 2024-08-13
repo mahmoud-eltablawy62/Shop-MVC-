@@ -1,0 +1,155 @@
+﻿
+@model CartVm
+@using Microsoft.Extensions.Options
+@inject IOptions<ShopRoles.Stripe> Stripe
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
+
+<link href="~/order/SummaryUi.css"  rel="stylesheet"   />
+
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-xl-8">
+
+            <div class="card">
+                <div class="card-body">
+                    <ol class="activity-checkout mb-0 px-4 mt-3">
+                        <li class="checkout-item">
+                            <div class="avatar checkout-icon p-1">
+                                <div class="avatar-title rounded-circle bg-primary">
+                                    <i class="bx bxs-receipt text-white font-size-20"></i>
+                                </div>
+                            </div>
+                            <div class="feed-item-list">
+                                <div>
+                                    <h3 class="font-size-16 mb-1">Billing Info</h3>
+                                    
+                                    <div class="mb-3">
+                                        <form>
+                                            <div>
+                                                <div class="row">
+                                                    <div class="col-lg-4">
+                                                        <div class="mb-3">
+                                                            <label class="form-label" for="billing-name">Name</label>
+                                                            <input type="text" class="form-control" id="billing-name" value="@Model.OrderHeader.Name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="mb-3">
+                                                            <label class="form-label" for="billing-email-address">Email Address</label>
+                                                                <input type="email" class="form-control" id="billing-email-address" value="@Model.OrderHeader.Email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="mb-3">
+                                                            <label class="form-label" for="billing-phone">Phone</label>
+                                                                <input type="text" class="form-control" id="billing-phone" value="@Model.OrderHeader.phoneNumber">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="mb-3">
+                                                    <label for="exampleInputPassword1" class="form-label" >Address</label>
+                                                    <input type="text" class="form-control" id="exampleInputPassword1" value="@Model.OrderHeader.Address" >
+                        
+                                                </div>
+                                                <div class="row">
+                                                
+
+                                                    <div class="col-lg-4">
+                                                        <div class="mb-4 mb-lg-0">
+                                                            <label class="form-label" for="billing-city">City</label>
+                                                                <input type="text" class="form-control" id="billing-city" value="@Model.OrderHeader.City">
+                                                        </div>
+                                                    </div>
+
+                                                   
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                 
+                       
+                    </ol>
+                </div>
+            </div>
+
+            <div class="row my-4">
+                <div class="col">
+                    <a href="https://localhost:7094/Customer/Cart" class="btn btn-link text-muted">
+                        <i class="mdi mdi-arrow-left me-1"></i> Continue Shopping
+                    </a>
+                </div> <!-- end col -->
+                <form method="post" >
+                <div class="col">
+                    <div class="text-end mt-2 mt-sm-0">
+                        <button href="#" class="btn btn-success" type="submit">
+                            <i class="mdi mdi-cart-outline me-1"></i> Procced
+                        </button>
+                    </div>
+                </div> <!-- end col -->
+                </form>
+            </div> <!-- end row-->
+        </div>
+        <div class="col-xl-4">
+            <div class="card checkout-order-summary">
+                <div class="card-body">
+                    <div class="p-3 bg-light mb-3">
+                        <h5 class="font-size-16 mb-0">Order Summary <span class="float-end ms-2">#MN0124</span></h5>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-centered mb-0 table-nowrap">
+                            <thead>
+                                <tr>
+                                    <th class="border-top-0" style="width: 110px;" scope="col">Product</th>
+                                    <th class="border-top-0" scope="col">Product Desc</th>
+                                    <th class="border-top-0" scope="col">Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                    @foreach (var item in Model.Carts)
+                                    {
+
+                                        <tr>
+                                            <th scope="row"><img src="~/@item.Products.ProductImage" alt="product-img" title="product-img" class="avatar-lg rounded"></th>
+                                            <td>
+                                                <h5 class="font-size-16 text-truncate"><a href="#" class="text-dark">@item.Products.ProductName</a></h5>
+                                                <p class="text-muted mb-0">
+                                                    <i class="bx bxs-star text-warning"></i>
+                                                    <i class="bx bxs-star text-warning"></i>
+                                                    <i class="bx bxs-star text-warning"></i>
+                                                    <i class="bx bxs-star text-warning"></i>
+                                                    <i class="bx bxs-star-half text-warning"></i>
+                                                </p>
+                                                <p class="text-muted mb-0 mt-1">$@item.Products.ProductPrice X @item.Count</p>
+                                            </td>
+                                            <td class="font-size-16 text-truncate"> @item.Products.ProductPrice </td>
+                                        </tr>
+                                    }
+
+
+                                <tr class="bg-light">
+                                    <td colspan="2">
+                                        <h5 class="font-size-14 m-0">Total:</h5>
+                                    </td>
+                                    <td>
+                                        $@Model.OrderHeader.TotalPrice
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end row -->
+
+</div>
+

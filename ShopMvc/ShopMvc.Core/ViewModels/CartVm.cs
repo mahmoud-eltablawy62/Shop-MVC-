@@ -9,7 +9,9 @@ namespace ShopMvc.Core.ViewModels
 {
      public class CartVm
     {
-        public IEnumerable<ShoppingCart> Carts { get; set; }  
+        public IEnumerable<ShoppingCart> Carts { get; set; }
+
+        public OrderHeader  OrderHeader { get; set; }
 
         public decimal Total_Price { get; set; }    
     }

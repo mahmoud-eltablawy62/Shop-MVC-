@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JSvKXGBvKoradiAEObDWRu18mGcrLCF4tbiq0YgLAyw=",
+  "Hash": "1Snd6cPGEaBGtEt7aivSw0qW1bm3m2XaSlhqhVeBCZk=",
   "Source": "ShopMvc",
   "BasePath": "_content/ShopMvc",
   "Mode": "Default",
@@ -3777,6 +3777,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\order\\SummaryUi.css",
+      "SourceId": "ShopMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\",
+      "BasePath": "_content/ShopMvc",
+      "RelativePath": "order/SummaryUi.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\order\\SummaryUi.css"
     },
     {
       "Identity": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.bundle.js",

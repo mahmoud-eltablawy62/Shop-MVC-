@@ -294,3 +294,4 @@ F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\refint\ShopMvc.dll
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.pdb
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.genruntimeconfig.cache
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ref\ShopMvc.dll
+F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\Stripe.net.dll

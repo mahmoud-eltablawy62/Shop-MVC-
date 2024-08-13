@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShopRoles")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0a220c5036fcaf8dfbfafa31d07a036942191bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec896b1b84b6d5d42870929b1801b2371365261d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShopRoles")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShopRoles")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

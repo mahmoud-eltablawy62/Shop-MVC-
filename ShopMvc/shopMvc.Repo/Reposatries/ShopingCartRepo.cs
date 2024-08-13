@@ -19,7 +19,11 @@ namespace shopMvc.Repo.Reposatries
             _Context = Context;
         }
 
-
+        public void RemoveRange(IEnumerable<ShoppingCart> items)
+        {
+            _Context.RemoveRange(items);
+            _Context.SaveChanges();
+        }   
         public int Inc_By1(ShoppingCart cart, int count)
         {
             cart.Count += count;

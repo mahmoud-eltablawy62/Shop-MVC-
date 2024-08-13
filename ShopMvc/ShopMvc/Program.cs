@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using ShopRoles;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.Extensions.Options;
+using Stripe;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +19,7 @@ builder.Services.AddDbContext<ShopDbContext>
 builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddDefaultTokenProviders().AddDefaultUI()
     .AddEntityFrameworkStores<ShopDbContext>();
 
-
+builder.Services.Configure<ShopRoles.Stripe>(builder.Configuration.GetSection("stripe"));
 
 builder.Services.AddScoped<IunitOfWork, UnitOfWork >();
 builder.Services.AddScoped<IEmailSender, EmailSender>();
@@ -39,6 +40,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+StripeConfiguration.ApiKey = builder.Configuration.GetSection("stripe:Secretkey").Get<string>();
 
 app.UseAuthorization();
 
