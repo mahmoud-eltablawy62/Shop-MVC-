@@ -2204,8 +2204,8 @@
         },
         "runtime": {
           "lib/net6.0/Stripe.net.dll": {
-            "assemblyVersion": "45.7.0.0",
-            "fileVersion": "45.7.0.0"
+            "assemblyVersion": "42.0.0.0",
+            "fileVersion": "42.0.0.0"
           }
         }
       },

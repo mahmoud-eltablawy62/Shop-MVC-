@@ -151,7 +151,7 @@ namespace ShopMvc.Areas.Customer.Controllers
 
             Vm.OrderHeader.SessionId = session.Id;
 
-            Vm.OrderHeader.PayementId = session.PaymentIntentId;
+
 
             _unitOfWork.Compelete();
 
@@ -166,11 +166,14 @@ namespace ShopMvc.Areas.Customer.Controllers
         public  IActionResult ConfirmCode(int id)
         {
             OrderHeader order = _unitOfWork._RepoOrderHeader.Get(u => u.OrderHeaderId == id);
+            
             var service = new SessionService();
             Session session = service.Get(order.SessionId);
+
             if(session.PaymentStatus.ToLower() == "paid")
             {
                 _unitOfWork._RepoOrderHeader.UpdateOrderStatues(id ,ShopRoles.RolesSh.Approve, ShopRoles.RolesSh.Approve);
+                order.PayementId = session.PaymentIntentId;
                 _unitOfWork.Compelete();
             }
             List <ShoppingCart> Carts = _unitOfWork._RepoCart.GetAll(u => u.User_id == order.userId).ToList();

@@ -30,18 +30,19 @@ namespace shopMvc.Repo.Reposatries
             _dbSet.Remove(Enity);
         
 
-        public T Get(Expression<Func<T, bool>> ? Predicate = null, string? IncludeWords=null)
+        public T Get(Expression<Func<T, bool>>? Predicate = null, string? IncludeWords = null)
         {
             IQueryable<T> quary = _dbSet;
             if (Predicate != null)
             {
                 quary = quary.Where(Predicate);
             }
-            if (IncludeWords != null)
+            if (!string.IsNullOrEmpty(IncludeWords))
             {
                 foreach (var word in IncludeWords.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                 {
-                    quary.Include(word);
+                    var trimmedWord = word.Trim();
+                    quary = quary.Include(trimmedWord);
                 }
             }
             return quary.SingleOrDefault();

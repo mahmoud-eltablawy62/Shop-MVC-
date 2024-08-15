@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1Snd6cPGEaBGtEt7aivSw0qW1bm3m2XaSlhqhVeBCZk=",
+  "Hash": "UnoUdRsic/AA6WzEGQ/EMhaJHZeRxKsSuYPG4+57zk8=",
   "Source": "ShopMvc",
   "BasePath": "_content/ShopMvc",
   "Mode": "Default",
@@ -2618,6 +2618,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\demo.js"
+    },
+    {
+      "Identity": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\js\\orderHeader.js",
+      "SourceId": "ShopMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\",
+      "BasePath": "_content/ShopMvc",
+      "RelativePath": "js/orderHeader.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\orderHeader.js"
     },
     {
       "Identity": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\js\\pages\\dashboard.js",

@@ -1,3 +1,13 @@
+F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.csproj.AssemblyReference.cache
+F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.GeneratedMSBuildEditorConfig.editorconfig
+F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.AssemblyInfoInputs.cache
+F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.AssemblyInfo.cs
+F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.csproj.CoreCompileInputs.cache
+F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.MvcApplicationPartsAssemblyInfo.cs
+F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.MvcApplicationPartsAssemblyInfo.cache
+F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.RazorAssemblyInfo.cache
+F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.RazorAssemblyInfo.cs
+F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.sourcelink.json
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\appsettings.Development.json
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\appsettings.json
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\ShopMvc.staticwebassets.runtime.json
@@ -76,6 +86,7 @@ F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\NuGet.Versioning.dll
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\SQLitePCLRaw.core.dll
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\Stripe.net.dll
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\System.CodeDom.dll
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -268,16 +279,6 @@ F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\ShopRoles.dll
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\ShopMvc.Core.pdb
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\shopMvc.Repo.pdb
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\ShopRoles.pdb
-F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.csproj.AssemblyReference.cache
-F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.GeneratedMSBuildEditorConfig.editorconfig
-F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.AssemblyInfoInputs.cache
-F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.AssemblyInfo.cs
-F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.csproj.CoreCompileInputs.cache
-F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.MvcApplicationPartsAssemblyInfo.cs
-F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.MvcApplicationPartsAssemblyInfo.cache
-F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.RazorAssemblyInfo.cache
-F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.RazorAssemblyInfo.cs
-F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.sourcelink.json
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\staticwebassets.build.json
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\staticwebassets.development.json
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\staticwebassets\msbuild.ShopMvc.Microsoft.AspNetCore.StaticWebAssets.props
@@ -294,4 +295,3 @@ F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\refint\ShopMvc.dll
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.pdb
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ShopMvc.genruntimeconfig.cache
 F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\obj\Debug\net8.0\ref\ShopMvc.dll
-F:\Shop\Shop-MVC-\ShopMvc\ShopMvc\bin\Debug\net8.0\Stripe.net.dll

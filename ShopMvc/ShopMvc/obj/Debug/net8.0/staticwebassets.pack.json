@@ -309,6 +309,10 @@
       "PackagePath": "staticwebassets\\js\\demo.js"
     },
     {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\js\\orderHeader.js",
+      "PackagePath": "staticwebassets\\js\\orderHeader.js"
+    },
+    {
       "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\js\\pages\\dashboard.js",
       "PackagePath": "staticwebassets\\js\\pages\\dashboard.js"
     },

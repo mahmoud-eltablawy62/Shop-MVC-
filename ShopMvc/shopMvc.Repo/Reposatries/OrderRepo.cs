@@ -26,6 +26,7 @@ namespace shopMvc.Repo.Reposatries
         public void  UpdateOrderStatues(int id, string Payment_Stat, string OrderStat)
         {
             var orderHeader = _DbContext.OrderHeaders.FirstOrDefault( u => u.OrderHeaderId == id);
+            orderHeader.PaymentDate = DateTime.UtcNow;
             if (orderHeader != null) { 
             orderHeader.OrderStatus = OrderStat; 
             orderHeader.PayementStatus = OrderStat; 

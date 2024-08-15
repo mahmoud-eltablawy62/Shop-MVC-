@@ -1,0 +1,29 @@
+﻿@{
+    Layout = "~/Views/Shared/_DahBoard.cshtml";
+    ViewBag.Title = "Order_Header";
+    ViewBag.Header = "Order_Header";
+
+}
+
+<table id="ProductTable">
+    <thead>
+        <tr>
+
+
+            <th>OrderHeaderId</th>
+            <th>phoneNumber</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>OrderStatus</th>
+            <th> TotalPrice </th>
+            <th>Actions</th>
+
+        </tr>
+    </thead>
+</table>
+
+
+
+@section scripts {
+    <script src="~/js/orderHeader.js"></script>
+}
