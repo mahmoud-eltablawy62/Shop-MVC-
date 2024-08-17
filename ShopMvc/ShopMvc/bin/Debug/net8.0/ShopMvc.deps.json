@@ -14,6 +14,7 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.7",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.3",
+          "PagedList.Mvc": "4.5.0",
           "ShopMvc.Core": "1.0.0",
           "ShopRoles": "1.0.0",
           "Stripe.net": "42.0.0",
@@ -2011,6 +2012,25 @@
           }
         }
       },
+      "PagedList/1.17.0": {
+        "runtime": {
+          "lib/net40/PagedList.dll": {
+            "assemblyVersion": "1.17.0.0",
+            "fileVersion": "1.17.0.0"
+          }
+        }
+      },
+      "PagedList.Mvc/4.5.0": {
+        "dependencies": {
+          "PagedList": "1.17.0"
+        },
+        "runtime": {
+          "lib/net40/PagedList.Mvc.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.5.0.0"
+          }
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -3000,11 +3020,42 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "X.PagedList/10.0.3": {
+        "runtime": {
+          "lib/net8.0/X.PagedList.dll": {
+            "assemblyVersion": "10.0.3.0",
+            "fileVersion": "10.0.3.0"
+          }
+        }
+      },
+      "X.PagedList.Mvc.Core/10.1.2": {
+        "dependencies": {
+          "X.Web.PagedList": "10.1.2"
+        },
+        "runtime": {
+          "lib/net8.0/X.PagedList.Mvc.Core.dll": {
+            "assemblyVersion": "10.1.2.0",
+            "fileVersion": "10.1.2.0"
+          }
+        }
+      },
+      "X.Web.PagedList/10.1.2": {
+        "dependencies": {
+          "X.PagedList": "10.0.3"
+        },
+        "runtime": {
+          "lib/net8.0/X.Web.PagedList.dll": {
+            "assemblyVersion": "10.1.2.0",
+            "fileVersion": "10.1.2.0"
+          }
+        }
+      },
       "ShopMvc.Core/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.7",
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.1.3",
-          "Microsoft.Extensions.Identity.Stores": "8.0.7"
+          "Microsoft.Extensions.Identity.Stores": "8.0.7",
+          "X.PagedList.Mvc.Core": "10.1.2"
         },
         "runtime": {
           "ShopMvc.Core.dll": {}
@@ -3014,7 +3065,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7",
-          "ShopMvc.Core": "1.0.0"
+          "ShopMvc.Core": "1.0.0",
+          "X.PagedList.Mvc.Core": "10.1.2"
         },
         "runtime": {
           "shopMvc.Repo.dll": {}
@@ -3022,7 +3074,8 @@
       },
       "ShopRoles/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.UI": "8.0.7"
+          "Microsoft.AspNetCore.Identity.UI": "8.0.7",
+          "X.PagedList.Mvc.Core": "10.1.2"
         },
         "runtime": {
           "ShopRoles.dll": {}
@@ -4198,6 +4251,20 @@
       "path": "nuget.versioning/6.9.1",
       "hashPath": "nuget.versioning.6.9.1.nupkg.sha512"
     },
+    "PagedList/1.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ou6F3WKXh49hOo0TxWM+SkIGuKllYPuPPvnSYOlQ1sTrtuEyuDUhYbSJd5Sdb06i/sWUJZTjiUecEs3Ht/Hx3g==",
+      "path": "pagedlist/1.17.0",
+      "hashPath": "pagedlist.1.17.0.nupkg.sha512"
+    },
+    "PagedList.Mvc/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D0M4qW2g4a9cwG8ozIKUnJheCrm5GpFTceqUl63AXWaAVnTgk+TysZYUOGMsBRuzid8aF+/E8b0bXM6+90jiEw==",
+      "path": "pagedlist.mvc/4.5.0",
+      "hashPath": "pagedlist.mvc.4.5.0.nupkg.sha512"
+    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -4967,6 +5034,27 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "X.PagedList/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HIYIXYlqIWrhedP1ext7bG1Bj3LS8X7zgNrZlrPdcQBbXCjns+QXudVbadzZq9tLrfQJmVowJirwCM1pONyeBg==",
+      "path": "x.pagedlist/10.0.3",
+      "hashPath": "x.pagedlist.10.0.3.nupkg.sha512"
+    },
+    "X.PagedList.Mvc.Core/10.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-znbnP3LqonxwM1Rue5wqVvu2e6S9e2g/jToWgrXCD6AGgGCQl93FIBdXxY2uGJ8by8dQX4exVKm3ydpEmWRS5w==",
+      "path": "x.pagedlist.mvc.core/10.1.2",
+      "hashPath": "x.pagedlist.mvc.core.10.1.2.nupkg.sha512"
+    },
+    "X.Web.PagedList/10.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sAo7tJmBWs8dT3PaZYI8bzBCDx8hctZAA6CGqMovNOEL+rpNxXIdED468GV7Gs2nNCdhOb5bpw4ZxmAIBuBFHg==",
+      "path": "x.web.pagedlist/10.1.2",
+      "hashPath": "x.web.pagedlist.10.1.2.nupkg.sha512"
     },
     "ShopMvc.Core/1.0.0": {
       "type": "project",

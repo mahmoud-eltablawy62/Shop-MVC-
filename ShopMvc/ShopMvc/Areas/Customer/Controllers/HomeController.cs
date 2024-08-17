@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pag
 using shopMvc.Repo;
 using ShopMvc.Core;
 using ShopMvc.Core.Entities;
-using ShopMvc.Core.ViewModels;
+
 using System.Security.Claims;
 
 namespace ShopMvc.Areas.Customer.Controllers
@@ -18,8 +18,9 @@ namespace ShopMvc.Areas.Customer.Controllers
             _unit = unit;  
         }
 
-        public IActionResult Index()
+        public IActionResult Index( )
         {
+            
             var Products = _unit._ProductRepo.GetAll();
             return View(Products);
         }

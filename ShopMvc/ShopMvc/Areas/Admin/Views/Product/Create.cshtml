@@ -4,6 +4,7 @@
     ViewBag.Title = "product_Management";
     ViewBag.Header = "Create Product";
 }
+<div class="container">
 <h1> Add_Product </h1>
 <form method="post" enctype="multipart/form-data" >
     <div class="mb-3">
@@ -38,16 +39,28 @@
 
     <div class="mb-3">
         <label asp-for="Prod.ProductImage" class="form-label"  >ProductImage</label>
-        <input type="file" asp-for="Prod.ProductImage" name="Upload">
+        <input type="file" asp-for="Prod.ProductImage" name="Upload" onchange="filing(event);">
     </div>
 
-     
+        <div class="col-md-4">
+            <div class="container">
+                <img id="imageprev" width="300" height="300" />
+            </div>
+        </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>
 
     <a type="button" class="btn btn-warning" asp-action="index">Back</a>
 </form>
 
+
+
 @section scripts {
-    <partial name="_ValidationScriptsPartial" />
+    <partial name="_ValidationScriptsPartial" /> 
+    <script> 
+    var filing = function(event){ 
+        var ImageHolder = document.getElementById("imageprev");
+        ImageHolder.src = URL.createObjectURL(event.target.files[0]);
+    }    
+    </script>
 }

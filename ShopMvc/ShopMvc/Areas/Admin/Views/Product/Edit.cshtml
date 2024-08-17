@@ -19,7 +19,7 @@
 
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label" asp-for="Prod.ProductDescription">ProductDescription</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" asp-for="Prod.ProductDescription">
+                    <textarea id="myTextarea" type="text" class="form-control" id="exampleInputPassword1" asp-for="Prod.ProductDescription"> </textarea>
         <span asp-validation-for="Prod.ProductDescription" class="text-danger"></span>
     </div>
 
@@ -63,4 +63,11 @@
 </div>
 @section scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.tiny.cloud/1/dhbqz9g0i0t1xq14y0rtqhim7tyo8l2e0gvj360aiyne2h7x/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: '#myTextarea',
+            readonly: false
+        });
+    </script>
 }

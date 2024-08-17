@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "T5qyovU9bho=",
+  "dgSpecHash": "HtGfuWJDvaM=",
   "success": true,
   "projectFilePath": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopRoles\\ShopRoles.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,10 @@
     "C:\\Users\\sama\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\sama\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\sama\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
-    "C:\\Users\\sama\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "C:\\Users\\sama\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\sama\\.nuget\\packages\\x.pagedlist\\10.0.3\\x.pagedlist.10.0.3.nupkg.sha512",
+    "C:\\Users\\sama\\.nuget\\packages\\x.pagedlist.mvc.core\\10.1.2\\x.pagedlist.mvc.core.10.1.2.nupkg.sha512",
+    "C:\\Users\\sama\\.nuget\\packages\\x.web.pagedlist\\10.1.2\\x.web.pagedlist.10.1.2.nupkg.sha512"
   ],
   "logs": []
 }

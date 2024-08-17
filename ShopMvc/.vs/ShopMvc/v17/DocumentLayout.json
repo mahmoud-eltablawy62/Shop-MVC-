@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "F:\\Shop\\Shop-MVC-\\ShopMvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|f:\\shop\\shop-mvc-\\shopmvc\\shopmvc\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|solutionrelative:shopmvc\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F523158-B519-4831-B7D4-4088CD122DEE}|ShopMvc\\ShopMvc.csproj|f:\\shop\\shop-mvc-\\shopmvc\\shopmvc\\views\\shared\\_customer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F523158-B519-4831-B7D4-4088CD122DEE}|ShopMvc\\ShopMvc.csproj|solutionrelative:shopmvc\\views\\shared\\_customer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|f:\\shop\\shop-mvc-\\shopmvc\\shopmvc\\areas\\admin\\views\\order\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BE21449-F4F7-47ED-82E2-646EA7421DBB}|ShopMvc\\ShopMvc.csproj|solutionrelative:shopmvc\\areas\\admin\\views\\order\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7F523158-B519-4831-B7D4-4088CD122DEE}|ShopMvc\\ShopMvc.csproj|f:\\shop\\shop-mvc-\\shopmvc\\shopmvc\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F523158-B519-4831-B7D4-4088CD122DEE}|ShopMvc\\ShopMvc.csproj|solutionrelative:shopmvc\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D11E2489-C493-4551-8CF8-1064F0F51944}|ShopMvc.Core\\ShopMvc.Core.csproj|f:\\shop\\shop-mvc-\\shopmvc\\shopmvc.core\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D11E2489-C493-4551-8CF8-1064F0F51944}|ShopMvc.Core\\ShopMvc.Core.csproj|solutionrelative:shopmvc.core\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F523158-B519-4831-B7D4-4088CD122DEE}|ShopMvc\\ShopMvc.csproj|f:\\shop\\shop-mvc-\\shopmvc\\shopmvc\\areas\\admin\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F523158-B519-4831-B7D4-4088CD122DEE}|ShopMvc\\ShopMvc.csproj|solutionrelative:shopmvc\\areas\\admin\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{501B0392-2867-4756-A0ED-CA8149FB87DD}|shopMvc.Repo\\shopMvc.Repo.csproj|f:\\shop\\shop-mvc-\\shopmvc\\shopmvc.repo\\reposatries\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{501B0392-2867-4756-A0ED-CA8149FB87DD}|shopMvc.Repo\\shopMvc.Repo.csproj|solutionrelative:shopmvc.repo\\reposatries\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F523158-B519-4831-B7D4-4088CD122DEE}|ShopMvc\\ShopMvc.csproj|f:\\shop\\shop-mvc-\\shopmvc\\shopmvc\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F523158-B519-4831-B7D4-4088CD122DEE}|ShopMvc\\ShopMvc.csproj|solutionrelative:shopmvc\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,55 +29,81 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 345,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Customer.cshtml",
+              "DocumentMoniker": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Views\\Shared\\_Customer.cshtml",
+              "RelativeDocumentMoniker": "ShopMvc\\Views\\Shared\\_Customer.cshtml",
+              "ToolTip": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Views\\Shared\\_Customer.cshtml",
+              "RelativeToolTip": "ShopMvc\\Views\\Shared\\_Customer.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T23:01:07.485Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Users.cs",
-              "DocumentMoniker": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc.Core\\Entities\\Users.cs",
-              "RelativeDocumentMoniker": "ShopMvc.Core\\Entities\\Users.cs",
-              "ToolTip": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc.Core\\Entities\\Users.cs",
-              "RelativeToolTip": "ShopMvc.Core\\Entities\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAWAAAAAAAAAA==",
+              "Title": "AdminsController.cs",
+              "DocumentMoniker": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Controllers\\AdminsController.cs",
+              "RelativeDocumentMoniker": "ShopMvc\\Areas\\Admin\\Controllers\\AdminsController.cs",
+              "ToolTip": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Controllers\\AdminsController.cs",
+              "RelativeToolTip": "ShopMvc\\Areas\\Admin\\Controllers\\AdminsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T14:30:55.959Z",
+              "WhenOpened": "2024-08-17T22:58:24.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "F:\\Shop\\Shop-MVC-\\ShopMvc\\shopMvc.Repo\\Reposatries\\AppUser.cs",
+              "RelativeDocumentMoniker": "shopMvc.Repo\\Reposatries\\AppUser.cs",
+              "ToolTip": "F:\\Shop\\Shop-MVC-\\ShopMvc\\shopMvc.Repo\\Reposatries\\AppUser.cs",
+              "RelativeToolTip": "shopMvc.Repo\\Reposatries\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T22:57:30.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopMvc\\Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
+              "ToolTip": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
+              "RelativeToolTip": "ShopMvc\\Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T22:43:17.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Views\\Order\\Detail.cshtml",
-              "RelativeDocumentMoniker": "ShopMvc\\Areas\\Admin\\Views\\Order\\Detail.cshtml",
-              "ToolTip": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Views\\Order\\Detail.cshtml",
-              "RelativeToolTip": "ShopMvc\\Areas\\Admin\\Views\\Order\\Detail.cshtml",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHYAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-15T14:26:49.37Z",
+              "Title": "DashBoardController.cs",
+              "DocumentMoniker": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Controllers\\DashBoardController.cs",
+              "RelativeDocumentMoniker": "ShopMvc\\Areas\\Admin\\Controllers\\DashBoardController.cs",
+              "ToolTip": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Controllers\\DashBoardController.cs",
+              "RelativeToolTip": "ShopMvc\\Areas\\Admin\\Controllers\\DashBoardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T22:42:35.987Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "ShopMvc\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "ToolTip": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "ShopMvc\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAA6wIAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T14:25:38.339Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

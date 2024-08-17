@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0hHc4kc/LOA=",
+  "dgSpecHash": "tg9hFs4H9Kw=",
   "success": true,
   "projectFilePath": "F:\\Shop\\Shop-MVC-\\ShopMvc\\shopMvc.Repo\\shopMvc.Repo.csproj",
   "expectedPackageFiles": [
@@ -188,7 +188,10 @@
     "C:\\Users\\sama\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\sama\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\sama\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\sama\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\sama\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\sama\\.nuget\\packages\\x.pagedlist\\10.0.3\\x.pagedlist.10.0.3.nupkg.sha512",
+    "C:\\Users\\sama\\.nuget\\packages\\x.pagedlist.mvc.core\\10.1.2\\x.pagedlist.mvc.core.10.1.2.nupkg.sha512",
+    "C:\\Users\\sama\\.nuget\\packages\\x.web.pagedlist\\10.1.2\\x.web.pagedlist.10.1.2.nupkg.sha512"
   ],
   "logs": []
 }

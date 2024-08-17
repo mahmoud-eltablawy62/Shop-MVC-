@@ -125,6 +125,10 @@
       "PackagePath": "staticwebassets\\Img\\prod-5.jpg"
     },
     {
+      "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\stock-vector-thank-you-handwritten-isolated-on-white-background-hand-drawn-lettering-style-one-line-drawing-2267689749.jpg",
+      "PackagePath": "staticwebassets\\Img\\stock-vector-thank-you-handwritten-isolated-on-white-background-hand-drawn-lettering-style-one-line-drawing-2267689749.jpg"
+    },
+    {
       "Id": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\user1-128x128.jpg",
       "PackagePath": "staticwebassets\\Img\\user1-128x128.jpg"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UnoUdRsic/AA6WzEGQ/EMhaJHZeRxKsSuYPG4+57zk8=",
+  "Hash": "/bH7hXAbtFDfHCPkYWtuRn5Z8uM5nV1QiQJOIHf9AGQ=",
   "Source": "ShopMvc",
   "BasePath": "_content/ShopMvc",
   "Mode": "Default",
@@ -2352,6 +2352,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\prod-5.jpg"
+    },
+    {
+      "Identity": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\stock-vector-thank-you-handwritten-isolated-on-white-background-hand-drawn-lettering-style-one-line-drawing-2267689749.jpg",
+      "SourceId": "ShopMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\",
+      "BasePath": "_content/ShopMvc",
+      "RelativePath": "Img/stock-vector-thank-you-handwritten-isolated-on-white-background-hand-drawn-lettering-style-one-line-drawing-2267689749.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\stock-vector-thank-you-handwritten-isolated-on-white-background-hand-drawn-lettering-style-one-line-drawing-2267689749.jpg"
     },
     {
       "Identity": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc\\wwwroot\\Img\\user1-128x128.jpg",

@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "ShopRoles/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.UI": "8.0.7"
+          "Microsoft.AspNetCore.Identity.UI": "8.0.7",
+          "X.PagedList.Mvc.Core": "10.1.2"
         },
         "runtime": {
           "ShopRoles.dll": {}
@@ -122,7 +123,37 @@
           }
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {}
+      "Microsoft.Extensions.Primitives/8.0.0": {},
+      "X.PagedList/10.0.3": {
+        "runtime": {
+          "lib/net8.0/X.PagedList.dll": {
+            "assemblyVersion": "10.0.3.0",
+            "fileVersion": "10.0.3.0"
+          }
+        }
+      },
+      "X.PagedList.Mvc.Core/10.1.2": {
+        "dependencies": {
+          "X.Web.PagedList": "10.1.2"
+        },
+        "runtime": {
+          "lib/net8.0/X.PagedList.Mvc.Core.dll": {
+            "assemblyVersion": "10.1.2.0",
+            "fileVersion": "10.1.2.0"
+          }
+        }
+      },
+      "X.Web.PagedList/10.1.2": {
+        "dependencies": {
+          "X.PagedList": "10.0.3"
+        },
+        "runtime": {
+          "lib/net8.0/X.Web.PagedList.dll": {
+            "assemblyVersion": "10.1.2.0",
+            "fileVersion": "10.1.2.0"
+          }
+        }
+      }
     }
   },
   "libraries": {
@@ -228,6 +259,27 @@
       "sha512": "sha512-bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
       "path": "microsoft.extensions.primitives/8.0.0",
       "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    },
+    "X.PagedList/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HIYIXYlqIWrhedP1ext7bG1Bj3LS8X7zgNrZlrPdcQBbXCjns+QXudVbadzZq9tLrfQJmVowJirwCM1pONyeBg==",
+      "path": "x.pagedlist/10.0.3",
+      "hashPath": "x.pagedlist.10.0.3.nupkg.sha512"
+    },
+    "X.PagedList.Mvc.Core/10.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-znbnP3LqonxwM1Rue5wqVvu2e6S9e2g/jToWgrXCD6AGgGCQl93FIBdXxY2uGJ8by8dQX4exVKm3ydpEmWRS5w==",
+      "path": "x.pagedlist.mvc.core/10.1.2",
+      "hashPath": "x.pagedlist.mvc.core.10.1.2.nupkg.sha512"
+    },
+    "X.Web.PagedList/10.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sAo7tJmBWs8dT3PaZYI8bzBCDx8hctZAA6CGqMovNOEL+rpNxXIdED468GV7Gs2nNCdhOb5bpw4ZxmAIBuBFHg==",
+      "path": "x.web.pagedlist/10.1.2",
+      "hashPath": "x.web.pagedlist.10.1.2.nupkg.sha512"
     }
   }
 }
