@@ -56,11 +56,12 @@
 
 
 @section scripts {
-    <partial name="_ValidationScriptsPartial" /> 
-    <script> 
-    var filing = function(event){ 
-        var ImageHolder = document.getElementById("imageprev");
-        ImageHolder.src = URL.createObjectURL(event.target.files[0]);
-    }    
+    <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.tiny.cloud/1/dhbqz9g0i0t1xq14y0rtqhim7tyo8l2e0gvj360aiyne2h7x/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: '#myTextarea',
+            readonly: false
+        });
     </script>
 }

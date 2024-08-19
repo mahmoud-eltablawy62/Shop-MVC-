@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using shopMvc.Repo.Migrations;
+//using shopMvc.Repo.Migrations;
 using ShopMvc.Core;
 using ShopMvc.Core.Entities;
 using ShopMvc.Core.ViewModels;

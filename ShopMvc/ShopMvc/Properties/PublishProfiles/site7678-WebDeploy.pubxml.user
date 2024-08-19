@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARsfq5DXOu0S4rNpWI2Ho+wAAAAACAAAAAAAQZgAAAAEAACAAAADx/tZSkS2Y/TDXUAia8i6LbWKDnBQAD0x9HfwIV/oYvgAAAAAOgAAAAAIAACAAAABk+wNmefnmvH7C9ptrpCS+ePd0dy/8YWT3hvh/sBH+YCAAAAAGe7nTeY1aMHgrwqp9b2C2TqDJ74Ug7+g3pA/Mt3jKVEAAAADoeM/vX8iB7mJFpFIE60WXyg6Dju7gT1SktGoIR+cyz/lcjSLGavS4Xs2pZGieO4nyMjkFnIKvwXCuK8MbarBA</EncryptedPassword>
+    <History>True|2024-08-18T15:24:12.4064855Z||;True|2024-08-18T17:43:31.9394648+03:00||;False|2024-08-18T17:26:48.4994803+03:00||;False|2024-08-18T17:25:10.4596697+03:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=db7309.databaseasp.net%3b Database=db7309%3b User Id=db7309%3b Password=Wz9%3f2D_r%408cJ%3b Encrypt=False%3b MultipleActiveResultSets=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

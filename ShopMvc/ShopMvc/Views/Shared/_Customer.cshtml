@@ -30,7 +30,7 @@
                         {
                             @if (User.IsInRole(ShopRoles.RolesSh.AdminRole))
                             {
-                            <li><a class="nav-link"  href="https://localhost:7094/admin/DashBoard"   >DashBoard
+                            <li><a class="nav-link"  href="http://shopanddashboardforadmin.runasp.net/admin/DashBoard"   >DashBoard
                                 </a></li>
                             }
                             else
@@ -38,12 +38,12 @@
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li>
-                                        <a class="dropdown-item" href="https://localhost:7094/customer/cart">
+                                        <a class="dropdown-item" href="http://shopanddashboardforadmin.runasp.net/customer/cart">
                                             My Cart
                                         </a>
                                     </li>
                                     <li><hr class="dropdown-divider" /></li>
-                                    <li><a class="dropdown-item" href="https://localhost:7094/Identity/Account/Manage"> Edit Profile </a></li>
+                                <li><a class="dropdown-item" href="http://shopanddashboardforadmin.runasp.net/Identity/Account/Manage"> Edit Profile </a></li>
 
                                 </ul>
                             }
@@ -53,7 +53,7 @@
                 <form class="d-flex">  
                     <partial name="_LoginPartial"/>
 
-                    <a class="btn btn-outline-dark" href="https://localhost:7094/Customer/Cart/Index">
+                    <a class="btn btn-outline-dark" href="http://shopanddashboardforadmin.runasp.net/Customer/Cart/Index">
                         <i class="bi-cart-fill me-1"></i>
                         Cart
                         

@@ -1,0 +1,13 @@
+F:\Shop\Shop-MVC-\ShopMvc\ShopRoles\bin\Release\net8.0\ShopRoles.deps.json
+F:\Shop\Shop-MVC-\ShopMvc\ShopRoles\bin\Release\net8.0\ShopRoles.dll
+F:\Shop\Shop-MVC-\ShopMvc\ShopRoles\bin\Release\net8.0\ShopRoles.pdb
+F:\Shop\Shop-MVC-\ShopMvc\ShopRoles\obj\Release\net8.0\ShopRoles.csproj.AssemblyReference.cache
+F:\Shop\Shop-MVC-\ShopMvc\ShopRoles\obj\Release\net8.0\ShopRoles.GeneratedMSBuildEditorConfig.editorconfig
+F:\Shop\Shop-MVC-\ShopMvc\ShopRoles\obj\Release\net8.0\ShopRoles.AssemblyInfoInputs.cache
+F:\Shop\Shop-MVC-\ShopMvc\ShopRoles\obj\Release\net8.0\ShopRoles.AssemblyInfo.cs
+F:\Shop\Shop-MVC-\ShopMvc\ShopRoles\obj\Release\net8.0\ShopRoles.csproj.CoreCompileInputs.cache
+F:\Shop\Shop-MVC-\ShopMvc\ShopRoles\obj\Release\net8.0\ShopRoles.sourcelink.json
+F:\Shop\Shop-MVC-\ShopMvc\ShopRoles\obj\Release\net8.0\ShopRoles.dll
+F:\Shop\Shop-MVC-\ShopMvc\ShopRoles\obj\Release\net8.0\refint\ShopRoles.dll
+F:\Shop\Shop-MVC-\ShopMvc\ShopRoles\obj\Release\net8.0\ShopRoles.pdb
+F:\Shop\Shop-MVC-\ShopMvc\ShopRoles\obj\Release\net8.0\ref\ShopRoles.dll

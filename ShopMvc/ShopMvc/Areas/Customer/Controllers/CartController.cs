@@ -112,7 +112,7 @@ namespace ShopMvc.Areas.Customer.Controllers
                 _unitOfWork._RepoOrderDetails.Add(details);
                 _unitOfWork.Compelete();
             }
-            var domain = "https://localhost:7094/";
+            var domain = "http://shopanddashboardforadmin.runasp.net/";
             var options = new SessionCreateOptions
             {
                 PaymentMethodTypes = new List<string> { "card" },
@@ -208,7 +208,7 @@ namespace ShopMvc.Areas.Customer.Controllers
                 _unitOfWork._RepoCart.Dec_By1(ShoppingCart, 1);
                 _unitOfWork._RepoCart.Delete(ShoppingCart);
                 _unitOfWork.Compelete();
-                return Redirect("https://localhost:7094/");
+                return Redirect("http://shopanddashboardforadmin.runasp.net/");
             }
             else 
                 {

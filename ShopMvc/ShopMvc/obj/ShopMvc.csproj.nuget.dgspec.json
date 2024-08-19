@@ -110,6 +110,9 @@
             "projectReferences": {
               "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc.Core\\ShopMvc.Core.csproj": {
                 "projectPath": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopMvc.Core\\ShopMvc.Core.csproj"
+              },
+              "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopRoles\\ShopRoles.csproj": {
+                "projectPath": "F:\\Shop\\Shop-MVC-\\ShopMvc\\ShopRoles\\ShopRoles.csproj"
               }
             }
           }

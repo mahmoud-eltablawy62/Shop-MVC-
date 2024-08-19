@@ -7,6 +7,8 @@ using ShopRoles;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.Extensions.Options;
 using Stripe;
+using Microsoft.EntityFrameworkCore.Internal;
+using shopMvc.Repo.DbIntailizer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,7 +25,7 @@ builder.Services.Configure<ShopRoles.Stripe>(builder.Configuration.GetSection("s
 
 builder.Services.AddScoped<IunitOfWork, UnitOfWork >();
 builder.Services.AddScoped<IEmailSender, EmailSender>();
-
+builder.Services.AddScoped<IDBIntailizer, DBIntailizer>();
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
@@ -40,10 +42,13 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+seed();
 StripeConfiguration.ApiKey = builder.Configuration.GetSection("stripe:Secretkey").Get<string>();
 
+
+app.UseAuthentication();
 app.UseAuthorization();
+
 
 
 
@@ -63,3 +68,13 @@ app.MapControllerRoute(
 
 
 app.Run();
+
+
+void seed()
+{
+    using( var scope = app.Services.CreateScope())
+    {
+        var Iden = scope.ServiceProvider.GetRequiredService<IDBIntailizer>();
+        Iden.Intailizer();
+    }
+}

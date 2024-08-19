@@ -3066,6 +3066,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7",
           "ShopMvc.Core": "1.0.0",
+          "ShopRoles": "1.0.0",
           "X.PagedList.Mvc.Core": "10.1.2"
         },
         "runtime": {

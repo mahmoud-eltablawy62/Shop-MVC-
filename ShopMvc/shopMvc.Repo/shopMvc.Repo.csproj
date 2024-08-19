@@ -18,6 +18,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ShopMvc.Core\ShopMvc.Core.csproj" />
+    <ProjectReference Include="..\ShopRoles\ShopRoles.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

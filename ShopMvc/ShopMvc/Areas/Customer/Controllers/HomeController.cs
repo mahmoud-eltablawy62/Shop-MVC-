@@ -51,7 +51,7 @@ namespace ShopMvc.Areas.Customer.Controllers
 
             if(claims.Value == null)
             {
-                return Redirect("https://localhost:7094/Identity/Account/Login");
+                return Redirect("http://shopanddashboardforadmin.runasp.net/Identity/Account/Login");
             }
 
             cart.User_id = claims.Value;
